@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border: 100px solid red;
+}
+
+.buspan{
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+#buh3{
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: red;
+}
+del {
+    font-size: 66px;
+}
+.example {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 4px;
+    margin: 50px;
+    /* margin tashqaridan suradi */
+    margin-left: 100px;
+    /* margin-left chapga suradi agar -- minus bersak qarama qarshi yuradi */
+    margin-right: 100px;
+      /* margin-right chapga suradi agar -- minus bersak qarama qarshi yuradi */
+      margin-top: 10px;
+      /* margin-top tepadan pastga suradi */
+      margin-bottom: -200px;
+      /* margin-bottom  pastga tepaga suradi*/
+
+      padding: 20px;
+      /* padding ichidan har tarafga suradi */
+      padding-left: 100px;
+      /* chapdan o'nga suradi */
+      padding-right: 100px; ;
+      /* o'ngadan chapga suradi*/
+      padding-bottom: 100px ;
+      /* pstdan tepaga suradi */
+}
